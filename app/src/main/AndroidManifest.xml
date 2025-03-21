@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.edu.visitingapplication">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VisitingApplication"
+        tools:targetApi="31">
+
+        <!-- Set Login as the default launcher activity -->
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other activities without MAIN/LAUNCHER intent filters -->
+        <activity android:name=".Signup" android:exported="true" />
+        <activity android:name=".MainActivity" android:exported="true" />
+        <activity android:name=".ApplyVisitActivity" android:exported="true" />
+        <activity android:name=".AdminDashboard" android:exported="true" />
+        <activity android:name=".watchman_login" android:exported="true" />
+        <activity android:name=".UserValidationActivity" android:exported="true" />
+        <activity android:name=".VisitPassDetailsActivity" android:exported="true" />
+        <activity android:name=".RequestActivity" android:exported="true" />
+        <activity android:name=".RequestDetailsActivity" android:exported="true" />
+        <activity android:name=".VisitStatusActivity" android:exported="true" />
+        <activity android:name=".reset_password" android:exported="true" />
+        <activity android:name=".admin_login" android:exported="true" />
+        <activity android:name=".VisitCardActivity" android:exported="true" />
+
+    </application>
+</manifest>

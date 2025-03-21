@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_visit_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#00FFFFFF"
+    android:backgroundTintMode="add"
+    android:foregroundTint="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <!-- Logo (same as login page) -->
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/vplogo" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="Visit Requests"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- ListView to display visit requests -->
+    <ListView
+        android:id="@+id/lvVisitRequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+    android:tooltipText="Request"
+        android:cacheColorHint="@color/white"
+        android:dividerHeight="5dp"
+        android:hapticFeedbackEnabled="true"
+        android:listSelector="#0F6F2F"
+        android:outlineAmbientShadowColor="@color/white"
+        />
+
+</LinearLayout>
