@@ -1,6 +1,6 @@
 
 ### 🏢 **Visiting Application** – Smart Visitor Management System  
-**Version:** 1.0.0 | **Platform:** Android 📱  
+**Version:** 12.01.0 | **Platform:** Android 📱  
 
 🚀 **Efficiently Manage Visitor Passes, Authentication & Security**  
 
@@ -43,10 +43,6 @@ With this **secure and efficient app**, admins, watchmen, and users can seamless
 🔹 Enters the **visitor’s unique code** to validate their entry  
 🔹 Marks them as **"Entered"**, preventing duplicate usage  
 
----
-
-## 📷 **Screenshots**  
-🚀 _Add Screenshots Here (Login Screen, Dashboard, Visit Request Page, Validation Page)_  
 
 ---
 
@@ -63,7 +59,7 @@ With this **secure and efficient app**, admins, watchmen, and users can seamless
 
 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/your-repo/visiting-application.git
+https://github.com/vinaymore69/VisitingApplication.git
 ```
 2️⃣ **Open in Android Studio**  
 3️⃣ **Run the App on an Emulator or Physical Device** 📱  
@@ -83,6 +79,4 @@ git clone https://github.com/your-repo/visiting-application.git
 ## 📞 **Support & Contact**  
 For any issues, suggestions, or collaborations:  
 
-📧 **Email:** support@yourdomain.com  
-🌐 **Website:** [www.yourwebsite.com](https://yourwebsite.com)  
-📲 **Follow us on Social Media:** @your_social_handle  
+
