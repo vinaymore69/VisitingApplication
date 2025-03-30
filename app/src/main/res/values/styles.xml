@@ -1,0 +1,58 @@
+<resources>
+    <!-- Existing styles may be here -->
+    
+    <!-- Custom component styles for consistent UI -->
+    
+    <!-- Card Style -->
+    <style name="AppCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="cardBackgroundColor">@color/backgroundGray</item>
+        <item name="contentPadding">20dp</item>
+    </style>
+    
+    <!-- Section Title Style -->
+    <style name="SectionTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    
+    <!-- Form Label Style -->
+    <style name="FormLabel">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <!-- Form Value Style -->
+    <style name="FormValue">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <!-- Primary Button Style -->
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <!-- Small Badge Style -->
+    <style name="StatusBadge">
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+</resources>
